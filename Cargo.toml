@@ -1,0 +1,11 @@
+[package]
+name = "log-watcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.10.2"
+chrono = { version = "0.4.41", features = ["serde"] }
+futures-util = "0.3.31"
+serde = { version = "1.0.219", features = ["derive"] }
+actix-multipart = "0.7.2"
